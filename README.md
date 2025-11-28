@@ -55,7 +55,7 @@ bash train_iseg_tri_attn_loraAdapter_pEncodeS_miniD.sh
 # test
 bash _similative_click.sh
 ```
-* You can change some design settings in the [train](https://github.com/yuzhiming21/ProtoSAM/blob/main/train_iseg_tri_attn_loraAdapter_pEncodeS_miniD.sh) and [test](https://github.com/yuzhiming21/ProtoSAM/blob/main/_similative_click.sh).
+* You can modify the parameters in the file to train and test with different parameters or models.
 
 ## Citation
 If you use our work, please consider citing:
@@ -63,4 +63,4 @@ If you use our work, please consider citing:
 
 ## Acknowledgements
 
-Our code builds upon the [sam](https://github.com/facebookresearch/segment-anything), [Fastsam3d](https://github.com/arcadelab/FastSAM3D) repositories. We are grateful to the authors for making their code publicly available. If you use our model or code, we kindly request that you also consider citing these foundational works.
+Our code builds upon the [sam](https://github.com/facebookresearch/segment-anything), [Fast 3D SAM](https://github.com/arcadelab/FastSAM3D) repositories. We are grateful to the authors for making their code publicly available. If you use our model or code, we kindly request that you also consider citing these foundational works.
